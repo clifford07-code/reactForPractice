@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+#Right {
+  scrollbar-width: none;      /* Firefox */
+  -ms-overflow-style: none;   /* IE */
+}
+
+#Right::-webkit-scrollbar {
+  display: none;              /* Chrome, Edge, Safari */
+}
+
